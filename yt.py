@@ -5,8 +5,7 @@ from pytube import Playlist
 from pytube.cli import on_progress
 from rich.console import Console
 from progress.spinner import MoonSpinner
-# https://youtu.be/2jrpDICci-k
-# https://youtube.com/playlist?list=PLbA8y3_VMwY9uMWA94apVX76syNTi49J6
+
 parser = ArgumentParser()
 parser.add_argument('-v', '--video', help="URL of YouTube Video")
 parser.add_argument('-p', "--playlist", help="URL of YouTube Playlist")
